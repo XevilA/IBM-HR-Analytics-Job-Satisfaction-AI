@@ -1,0 +1,23 @@
+{
+  "project": "AI จำแนกระดับความพึงพอใจในการทำงานของพนักงาน",
+  "team": "TEAM-99",
+  "members": [
+    "001 กมลวรรณ จันทร์ผึ้ง",
+    "009 ชลดา อิศรเสนา ณ อยุธยา",
+    "016 ณัฐพร เผือกผ่อง"
+  ],
+  "target": "JobSatisfaction",
+  "features": [
+    "JobLevel",
+    "Age",
+    "MonthlyIncome",
+    "YearsAtCompany"
+  ],
+  "best_interpretable_model": "Decision Tree (max_depth=3)",
+  "accuracy_comparison": {
+    "Decision Tree": 0.2755,
+    "SVM": 0.2585,
+    "Naive Bayes": 0.3129,
+    "Neural Network": 0.2721
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "target": "JobSatisfaction",
+  "selected_features": [
+    "EnvironmentSatisfaction",
+    "RelationshipSatisfaction",
+    "TotalSatisfaction"
+  ],
+  "n_selected": 3,
+  "n_total": 27,
+  "baseline_acc": 0.5857,
+  "ga_acc": 0.5939,
+  "generations": 25,
+  "pop_size": 20
+}

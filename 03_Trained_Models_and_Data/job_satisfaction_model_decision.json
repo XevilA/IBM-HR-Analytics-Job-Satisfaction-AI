@@ -1,0 +1,6 @@
+{
+  "final_model": "Deep MLP (wk11)",
+  "target": "JobSatisfaction",
+  "deep_test_acc": 1.0,
+  "decision_tree_test_acc": 0.5578
+}
