@@ -92,18 +92,21 @@ graph TD
 * 📄 **รายงานใบงานตามรายวิชา (.doc):** บรรจุอยู่ในโฟลเดอร์ [`02_Assignment_Docs_Word/`](02_Assignment_Docs_Word/) ครบทั้ง 10 สัปดาห์ (ใบงานที่ 01 ถึง 11)
 
 ### 3. สมุดโค้ดการทดลองสำหรับนักพัฒนาและผู้ตรวจวิชาการ (Google Colab)
-อยู่ในโฟลเดอร์ [`01_Colab_Notebooks/`](01_Colab_Notebooks/) ซึ่งมีระบบ **Auto-Setup** ในตัว สามารถคลิกเปิดบน Google Colab แล้วกดรันได้ทันทีโดยไม่ต้องอัปโหลดไฟล์เสริม:
-* `work01_Data_Loading_Pandas.ipynb` — การสำรวจและโหลดข้อมูล
-* `work02_ML_Types_and_Target.ipynb` — การกำหนดโจทย์และคลาสเป้าหมาย
-* `work03_Data_Cleaning_and_Preprocessing.ipynb` — การทำความสะอาดข้อมูล
-* `work04_Exploratory_Data_Analysis_EDA.ipynb` — การวิเคราะห์เชิงสถิติและการกระจายตัว
-* `work05_Decision_Tree.ipynb` — การสร้างโมเดลต้นไม้ตัดสินใจ
-* `work06_Neural_Network_MLP.ipynb` — การสร้างโครงข่ายประสาทเทียมเบื้องต้น
-* `work07_Support_Vector_Machine_SVM.ipynb` — การสร้างโมเดล SVM
-* `work08_Naive_Bayes.ipynb` — การสร้างโมเดล Naive Bayes
-* `work10_Genetic_Algorithm_Feature_Selection.ipynb` — การคัดเลือกฟีเจอร์ด้วย Genetic Algorithm
-* `work11_Model_Optimization_and_Comparison.ipynb` — การปรับแต่งและเปรียบเทียบโมเดล
-* `work_all_in_one_master.ipynb` — **สมุดงานหลักรวมทุกขั้นตอนตั้งแต่ต้นจนจบในไฟล์เดียว**
+ อยู่ในโฟลเดอร์ [`01_Colab_Notebooks/`](01_Colab_Notebooks/) ซึ่งมีระบบ **Auto-Setup** ในตัว สามารถคลิกเปิดบน Google Colab ผ่านปุ่มด้านล่างได้ทันทีโดยไม่ต้องตั้งค่าใดๆ เพิ่มเติม:
+
+| ลำดับงาน | ชื่อไฟล์ในระบบส่งงาน | หัวข้อการทดลอง | ลิงก์ตรงเปิด Google Colab |
+|---|---|---|---|
+| **รวมทุกงาน** | `ใบงานรวมโครงงาน -001,009,016.ipynb` | **Master Project (All-in-One ครบ 11 งาน)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 01** | `ใบงานที่01 -001,009,016.ipynb` | การสำรวจและโหลดข้อมูลด้วย Pandas | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8801%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 02** | `ใบงานที่02 -001,009,016.ipynb` | การกำหนดโจทย์และคลาสเป้าหมาย Machine Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8802%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 03** | `ใบงานที่03 -001,009,016.ipynb` | การทำความสะอาดและจัดเตรียมข้อมูล (Data Cleaning) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8803%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 04** | `ใบงานที่04 -001,009,016.ipynb` | การวิเคราะห์ข้อมูลเชิงสำรวจ (Exploratory Data Analysis) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8804%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 05** | `ใบงานที่05 -001,009,016.ipynb` | ต้นไม้ตัดสินใจ (Decision Tree Classifier) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8805%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 06** | `ใบงานที่06 -001,009,016.ipynb` | โครงข่ายประสาทเทียม (Multi-Layer Perceptron - MLP) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8806%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 07** | `ใบงานที่07 -001,009,016.ipynb` | ซัพพอร์ตเวกเตอร์แมชชีน (Support Vector Machine - SVM) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8807%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 08** | `ใบงานที่08 -001,009,016.ipynb` | นาอีฟเบย์ส (Naive Bayes Classifier) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8808%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 10** | `ใบงานที่10 -001,009,016.ipynb` | การคัดเลือกฟีเจอร์ด้วย Genetic Algorithm (GA) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8810%20-001%2C009%2C016.ipynb) |
+| **ใบงาน 11** | `ใบงานที่11 -001,009,016.ipynb` | การปรับแต่งและเปรียบเทียบโมเดลขั้นสุดท้าย | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XevilA/IBM-HR-Analytics-Job-Satisfaction-AI/blob/main/01_Colab_Notebooks/%E0%B9%83%E0%B8%92%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%8811%20-001%2C009%2C016.ipynb) |
 
 ---
 
